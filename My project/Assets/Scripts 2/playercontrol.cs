@@ -23,6 +23,6 @@ public class playercontrol : MonoBehaviour
 
         //Makes the player move 
         transform.Translate(Vector3.forward * Time.deltaTime * speed * fInput);
-        transform.Rotate(Vector3.up * turnspeed * Time.deltaTime. * hInput);
+        transform.Rotate(Vector3.up, turnspeed * Time.deltaTime * hInput);
     }
 }
